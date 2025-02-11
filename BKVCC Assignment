@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hello from Microservice VM1!");
+    res.send("Hello from Bharadwaj_MS_in_LinuxVM!");
 });
 
 app.listen(3000, "0.0.0.0", () => {
